@@ -1,3 +1,11 @@
+"homepage": "https://yashraj841.github.io/job-portal-ui-Version1",
+"scripts": {
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
 {
   "name": "jobhub-react-demo",
   "private": true,
